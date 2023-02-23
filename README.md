@@ -8,7 +8,7 @@ First, We need to create a virtual environment `venv`:
 
 2. Run the following command to create a virtual environment:
     ``` 
-    python3 -m venv coding_challenge
+    python -m venv coding_challenge
     ```
     This will create a new virtual environment named myenv in the current directory.
 
@@ -21,15 +21,25 @@ First, We need to create a virtual environment `venv`:
 
     For windows sytems:
     ``` 
-    $ coding_challenge\Scripts\activate.bat
+    $ coding_challenge\Scripts\activate.ps1
     ```        
 
 4. Install the required dependencies by running the following command:
     ``` 
     $ pip install -r requirements.txt
     ```       
- 
-5. When you're done working on the project, you can deactivate the virtual environment by running the following command:
+
+5. Add a new kernel to your Jupyter config
+    ``` 
+    $ ipython kernel install --user --name=coding_challenge
+    ``` 
+
+6. Run the jupyter notebook using the following command, feel free to stop the server using CTRL+C
+    ``` 
+    $ jupyter notebook
+    ``` 
+
+7. When you're done working on the project, you can deactivate the virtual environment by running the following command:
 
     ``` 
     $ deactivate
