@@ -39,7 +39,7 @@ First, We need to create a virtual environment `venv`:
     $ jupyter notebook
     ``` 
 
-7. Open solution.ipynb to view the solution
+7. Open `solution.ipynb` to view the solution
 
 
 8. When you're done working on the project, you can deactivate the virtual environment by running the following command:
